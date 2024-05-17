@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* 按下Shift键+鼠标滚动按钮来滚动 */
+::-webkit-scrollbar {
+  display: none;
+}
